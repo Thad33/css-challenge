@@ -28,7 +28,22 @@ nav li{
     border-radius: 0.4rem;
     border: 0.3px rgb(121, 47, 47) solid;
 }
-footer{
-    border: none;
-    margin-left: 0.5rem;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(55, 106, 126)(53, 38, 38);
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+  }
+footer li{
+    display: inline-block;
+    padding: 0 20px; font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
